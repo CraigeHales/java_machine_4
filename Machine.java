@@ -10,7 +10,7 @@ public class Machine implements Executer {
     public void init(PostResult result){
         result.println("Machine.init()");
         // which one are we?
-        result.setText("tspan_load","T4",0);        
+        result.setText("tspan_load","T4",0);  
         // give the machine a name
         result.setText("tspan_java_machine","Ice Cold Drinks",0);
         result.setColor("tspan_java_machine","#3366ff",0);
